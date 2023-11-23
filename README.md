@@ -1,4 +1,30 @@
 # Ways to run this
+
+## Venv
+You are **heavily** encouraged to run your project in a Python Virtual Environment (venv).
+
+To do this, run the below command:
+```bash
+python -m venv .venv
+```
+To activate the virtual environment, follow the relevant instruction below:
+
+### Linux
+```bash
+source .venv/bin/activate
+```
+
+### Windows
+#### CMD
+```cmd
+.venv\Scripts\activate.bat
+```
+#### Powershell
+```powershell
+.venv\Scripts\Activate.ps1
+```
+---
+
 **NOTE** that all commands will be run in verbose mode because I like knowing what tests ran, not just what failed. The verbose mode is triggered by adding the `-v` flag into your run command.
 
 # Running Pytest
