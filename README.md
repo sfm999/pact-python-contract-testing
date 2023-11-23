@@ -3,7 +3,7 @@
 
 # Running Pytest
 ```bash
-python -m pytest
+pytest
 ```
 
 ## Our project structure
