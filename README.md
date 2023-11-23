@@ -17,17 +17,6 @@ project/
 |   |-- test_user.py
 |-- log/
 |-- pacts/
-
-
-|-- code/  
-|   |-- __init__.py  
-|   |-- calculations.py  
-|-- tests/  
-|   |-- __init__.py  
-|   |-- test_user.py  
-|   |-- test_str.py  
-|-- log/
-|-- pacts/
 ```
 
 We will use `test_user.py` throughout our tests for consistency. Feel free to try some of them out on `test_str.py`, just don't forget to change the relevant values :grinning:
