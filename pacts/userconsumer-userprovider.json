@@ -1,0 +1,32 @@
+{
+  "consumer": {
+    "name": "UserConsumer"
+  },
+  "provider": {
+    "name": "UserProvider"
+  },
+  "interactions": [
+    {
+      "description": "a request for a user with an ID of 1",
+      "providerState": "User exists with ID of 1",
+      "request": {
+        "method": "get",
+        "path": "/users/1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "Name": "Bob",
+          "Age": 32
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
